@@ -1,4 +1,4 @@
-var loops = 8 //8192
+var loops = 8192 //8192
 /**
  *
  * @param {Number} x
@@ -47,14 +47,14 @@ function latitudeCurve(theta, step) {
 function findSpiralOnLongitude(latitude, longitude) {
 	var theta = latitude * (Math.PI / 180)
 	var phi = longitude * (Math.PI / 180)
-	console.log({ theta, phi })
-	console.log(cartesianToGlobe(...spiralCurve(phi / loops)))
+	//console.log({ theta, phi })
+	//console.log(cartesianToGlobe(...spiralCurve(phi / loops)))
 	for (var i = Math.floor(loops / 2); i >= 0; i--) {
 		var temp = (phi + 2 * i * Math.PI) / loops
 
 		var spiral = cartesianToGlobe(...spiralCurve(temp))
-		console.log("t: " + temp)
-		console.log("s: " + spiral[2] * (Math.PI / 180) + "\n")
+		//console.log("t: " + temp)
+		//console.log("s: " + spiral[2] * (Math.PI / 180) + "\n")
 
 		if (spiral[2] * (Math.PI / 180) > theta) {
 			console.log("found")
@@ -67,7 +67,7 @@ console.log("final: " + findSpiralOnLongitude(4, 131))
 function findNextIndex(r, theta, phi) {
 	for (var i = (loops * loops) / 2; i >= 0; i--) {
 		var tempSpiral = cartesianToGlobe(...spiralCurve((i * 2 * Math.PI) / (loops * loops)))
-		console.log({ i, tempSpiral })
+		//console.log({ i, tempSpiral })
 		if (tempSpiral[2] > phi) {
 				return i
 			
