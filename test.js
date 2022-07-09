@@ -1,0 +1,5 @@
+var { maps } = require("./googleMaps")
+var one = new maps()
+var two = new maps()
+one.getLocationsAndCity("washington DC")
+two.getLocationsAndCity("herndon virginia")
