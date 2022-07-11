@@ -1,0 +1,220 @@
+{
+    "city": {
+        "spiralID": 2374799,
+        "locations": [
+            "ChIJSS82bYxHtokR3ezkJguANco",
+            "ChIJK8vau3A4tokRx3hpppNe0YM",
+            "ChIJeaWY0G84tokRVDZIGMf-pIY",
+            "ChIJV6C_6Zc4tokR4kSoCDAwwJw",
+            "ChIJf5k6aa85tokRroerLiO9R8k",
+            "ChIJl7zpjgc5tokRfJmWTGj8d0k",
+            "ChIJ70B3q6VGtokRFZvNt2Hxt2c",
+            "ChIJNUoNUh9BtokRJtRI0XVWIY4",
+            "ChIJS-7AUqBGtokR0BIzuiMGSBY",
+            "ChIJwd6M6kpAtokRiSyfVBBl2Ns",
+            "ChIJiRA-3ANMtokR_Fe9vLZu5YA",
+            "ChIJ3wcmlNLLt4kRe7mecxEnSww",
+            "ChIJecq4IYVbtokRuXo0aF7gmok",
+            "ChIJoyjoMZRbtokRxH4kXllmLFY",
+            "ChIJ3yUvUHxdtokR9Oipdtr1Em0",
+            "ChIJR_ARgWpctokR_uNt7k0OK4I",
+            "ChIJxd0WrojNt4kR8TT3wvYJC0c",
+            "ChIJkTEXnYBntokRFrt2yUZ1UTQ",
+            "ChIJ35UsQ8Czt4kRRRYLmTRscmU",
+            "ChIJzeXpxDFctokRIww9E1JtAlo"
+        ]
+    },
+    "locations": [
+        {
+            "name": "Juan’s Mechanic Mobil",
+            "address": "20170, Herndon",
+            "phone": "(571) 376-0829",
+            "website": "https://taxi-jhon.negocio.site/",
+            "placeID": "ChIJSS82bYxHtokR3ezkJguANco",
+            "url": "https://maps.google.com/?cid=14570692954812640477",
+            "lat": 38.9695569,
+            "lng": -77.386055
+        },
+        {
+            "name": "95 Auto Service",
+            "address": "45901 Transamerica Plaza Suite 100, Sterling",
+            "phone": "(703) 464-1208",
+            "placeID": "ChIJK8vau3A4tokRx3hpppNe0YM",
+            "url": "https://maps.google.com/?cid=9498477077346220231",
+            "lat": 38.9742639,
+            "lng": -77.41306039999999
+        },
+        {
+            "name": "Clement Diesel and Auto Repair",
+            "address": "100 Glenn Dr Unit A-1, Sterling",
+            "phone": "(703) 915-0722",
+            "website": "https://www.clementdieselautorepair.com/",
+            "placeID": "ChIJeaWY0G84tokRVDZIGMf-pIY",
+            "url": "https://maps.google.com/?cid=9702159628322223700",
+            "lat": 38.9918422,
+            "lng": -77.42433659999999
+        },
+        {
+            "name": "Dulles Truck Center",
+            "address": "44894 Old Ox Rd, Sterling",
+            "phone": "(703) 481-8785",
+            "website": "http://www.dullesautoclinic.com/",
+            "placeID": "ChIJV6C_6Zc4tokR4kSoCDAwwJw",
+            "url": "https://maps.google.com/?cid=11295080848307012834",
+            "lat": 38.9852357,
+            "lng": -77.4468534
+        },
+        {
+            "name": "B&C Diesel Services",
+            "address": "21557 Blackwood Ct #150, Sterling",
+            "phone": "(571) 375-2056",
+            "website": "https://www.bcdieselservices.com/",
+            "placeID": "ChIJf5k6aa85tokRroerLiO9R8k",
+            "url": "https://maps.google.com/?cid=14503769083774470062",
+            "lat": 39.019628,
+            "lng": -77.41683499999999
+        },
+        {
+            "name": "Road Runner Mobile Diesel Mechanic & Semi Repair",
+            "address": "45660 Woodland Rd UNIT B, Sterling",
+            "phone": "(571) 758-2118",
+            "website": "https://road-runner-mobile-diesel-mechanic-semi.business.site/?utm_source=gmb&utm_medium=referral",
+            "placeID": "ChIJl7zpjgc5tokRfJmWTGj8d0k",
+            "url": "https://maps.google.com/?cid=5293977411889043836",
+            "lat": 39.0204593,
+            "lng": -77.42021729999999
+        },
+        {
+            "name": "High-Tech Auto and Truck Center",
+            "address": "4007 Westfax Dr D, Chantilly",
+            "phone": "(703) 968-6648",
+            "website": "https://hightechautoandtruck.com/",
+            "placeID": "ChIJ70B3q6VGtokRFZvNt2Hxt2c",
+            "url": "https://maps.google.com/?cid=7473707508642454293",
+            "lat": 38.8995723,
+            "lng": -77.4559436
+        },
+        {
+            "name": "Quality Fleet Services",
+            "address": "23560 Pebble Run Pl, Sterling",
+            "phone": "(703) 661-2111",
+            "website": "http://qualityfleetservices.com/",
+            "placeID": "ChIJNUoNUh9BtokRJtRI0XVWIY4",
+            "url": "https://maps.google.com/?cid=10241562091639591974",
+            "lat": 38.9649842,
+            "lng": -77.5006713
+        },
+        {
+            "name": "Ted Britt Truck Repair Center",
+            "address": "14601 Flint Lee Rd, Chantilly",
+            "phone": "(703) 454-0031",
+            "website": "https://www.tedbrittchantilly.com/truck-repair-center.html",
+            "placeID": "ChIJS-7AUqBGtokR0BIzuiMGSBY",
+            "url": "https://maps.google.com/?cid=1605540017675113168",
+            "lat": 38.8933821,
+            "lng": -77.45286689999999
+        },
+        {
+            "name": "Munday's Truck Repair",
+            "address": "24402 Gum Spring Rd, Sterling",
+            "phone": "(703) 327-8303",
+            "placeID": "ChIJwd6M6kpAtokRiSyfVBBl2Ns",
+            "url": "https://maps.google.com/?cid=15841522810089319561",
+            "lat": 38.9410591,
+            "lng": -77.5378834
+        },
+        {
+            "name": "Fleet Authority",
+            "address": "3170 Draper Dr #10, Fairfax",
+            "phone": "(703) 691-2100",
+            "website": "http://www.fleetauthority.com/",
+            "placeID": "ChIJiRA-3ANMtokR_Fe9vLZu5YA",
+            "url": "https://maps.google.com/?cid=9287951537651144700",
+            "lat": 38.8664687,
+            "lng": -77.2821932
+        },
+        {
+            "name": "JS's Auto & Truck services. 24/7",
+            "address": "9806 Montauk Ave, Bethesda",
+            "phone": "(240) 428-5387",
+            "placeID": "ChIJ3wcmlNLLt4kRe7mecxEnSww",
+            "url": "https://maps.google.com/?cid=885844707616143739",
+            "lat": 39.0174499,
+            "lng": -77.1293484
+        },
+        {
+            "name": "Truck Road Service",
+            "address": "8817 Commerce Ct, Manassas",
+            "placeID": "ChIJecq4IYVbtokRuXo0aF7gmok",
+            "url": "https://maps.google.com/?cid=9915484225689385657",
+            "lat": 38.7599326,
+            "lng": -77.46053479999999
+        },
+        {
+            "name": "KD Jones Truck Repair & Roadservice",
+            "address": "9532 Liberia Ave suite 719, Manassas",
+            "phone": "(703) 898-0313",
+            "placeID": "ChIJoyjoMZRbtokRxH4kXllmLFY",
+            "url": "https://maps.google.com/?cid=6209450520254643908",
+            "lat": 38.7507646,
+            "lng": -77.4505653
+        },
+        {
+            "name": "MJ Robic Fleet Service",
+            "address": "7840 Wellingford Dr, Manassas",
+            "phone": "(571) 428-2881",
+            "placeID": "ChIJ3yUvUHxdtokR9Oipdtr1Em0",
+            "url": "https://maps.google.com/?cid=7859614618357459188",
+            "lat": 38.7849915,
+            "lng": -77.5590158
+        },
+        {
+            "name": "Manassas Auto and Truck Mechanical Service and Diesel Repair Shop",
+            "address": "9246 Sills Ct, Manassas",
+            "phone": "(703) 330-6446",
+            "placeID": "ChIJR_ARgWpctokR_uNt7k0OK4I",
+            "url": "https://maps.google.com/?cid=9379606376804639742",
+            "lat": 38.7534518,
+            "lng": -77.4927034
+        },
+        {
+            "name": "Light Truck Service Co",
+            "address": "1327 E Gude Dr, Rockville",
+            "phone": "(301) 424-4410",
+            "website": "http://lighttruckservice.com/",
+            "placeID": "ChIJxd0WrojNt4kR8TT3wvYJC0c",
+            "url": "https://maps.google.com/?cid=5119196356874286321",
+            "lat": 39.0965858,
+            "lng": -77.1356596
+        },
+        {
+            "name": "Virginia Fleet Services",
+            "address": "6880 Wellington Rd, Manassas",
+            "phone": "(703) 330-7272",
+            "placeID": "ChIJkTEXnYBntokRFrt2yUZ1UTQ",
+            "url": "https://maps.google.com/?cid=3769923309973977878",
+            "lat": 38.7813413,
+            "lng": -77.5619969
+        },
+        {
+            "name": "Truck Mobile Mechanic and tire service",
+            "address": "6409 King Louis Dr, Alexandria",
+            "phone": "(571) 918-8000",
+            "website": "https://truck-mobile-mechanic-and-tire-service.business.site/?utm_source=gmb&utm_medium=referral",
+            "placeID": "ChIJ35UsQ8Czt4kRRRYLmTRscmU",
+            "url": "https://maps.google.com/?cid=7310024118337476165",
+            "lat": 38.8199857,
+            "lng": -77.1463205
+        },
+        {
+            "name": "Franco Road Services - 24/7 Mobile Truck and Trailer Repair",
+            "address": "10482 Colonel Ct, Manassas",
+            "phone": "(571) 287-1695",
+            "website": "http://www.francoroadservices.com/",
+            "placeID": "ChIJzeXpxDFctokRIww9E1JtAlo",
+            "url": "https://maps.google.com/?cid=6485866612644449315",
+            "lat": 38.74332750000001,
+            "lng": -77.50888309999999
+        }
+    ]
+}

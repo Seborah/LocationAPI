@@ -1,8 +1,21 @@
 {
-    "loops":4096,
-    "keywords":[
+    "loops": 4096,
+    "keywords": [
         "truck",
         "semi"
     ],
-    "type":"car_repair"
+    "type": "car_repair",
+    "port": 3130,
+    "db": {
+        "host": "192.168.86.45",
+        "user": "seborah",
+        "password": "QMpy97iwXcexh",
+        "database": "testing_locations"
+    },
+    "querries": {
+        "cities": "SELECT * FROM cities WHERE spiral_id = ?",
+        "locations": "SELECT * FROM locations WHERE place_id = ?",
+        "newcity": "REPLACE INTO cities (spiral_id, longitude, latitude, extra) VALUES (?, ?, ?, ?)",
+        "newlocation": "REPLACE INTO locations (place_id, name, address, latitude, longitude, phone_number, emails, website, extra) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+    }
 }
