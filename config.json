@@ -16,6 +16,7 @@
         "cities": "SELECT * FROM cities WHERE spiral_id = ?",
         "locations": "SELECT * FROM locations WHERE place_id = ?",
         "newcity": "REPLACE INTO cities (spiral_id, longitude, latitude, extra) VALUES (?, ?, ?, ?)",
-        "newlocation": "REPLACE INTO locations (place_id, name, address, latitude, longitude, phone_number, emails, website, extra) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)"
+        "newlocation": "REPLACE INTO locations (place_id, name, address, latitude, longitude, phone_number, emails, website, extra) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+        "updatelocation": "UPDATE locations SET emails = ? WHERE place_id = ?"
     }
 }

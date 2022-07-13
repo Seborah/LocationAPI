@@ -4,7 +4,7 @@ query=www.kryptowire.com&
 query=kududynamics.com&
 async=false
 */
-
+var { updateLocation } = require("./database")
 const { default: axios } = require("axios")
 
 /**
@@ -12,7 +12,7 @@ const { default: axios } = require("axios")
  * @param {Array<String>} domains
  * @returns
  */
-async function getEmailsFromDomain(domain) {
+async function getEmailsFromDomain(domain, placeID) {
 	//? app.outscraper.com?query=1&query=2&query=3
 	var host = new URL(domain.website).hostname
 
@@ -30,7 +30,6 @@ async function getEmailsFromDomain(domain) {
 			},
 		})
 		.then(function (response) {
-			console.log(response.data)
 			var emailList = []
 			if (response.data.data[0].emails) {
 				response.data.data[0].emails.forEach((element) => emailList.push(element.value))
@@ -39,14 +38,19 @@ async function getEmailsFromDomain(domain) {
 			if (response.data.data[0]["external_emails"]) {
 				response.data.data[0]["external_emails"].forEach((element) => emailList.push(element.value))
 			}
-
+			updateLocation(placeID, emailList)
 			//! database.update(domain.placeID, { emails: response.data })
+		})
+		.catch(function (error) {
+			console.log(error)
 		})
 }
 
-async function getEmails(domains) {
-	for (var i = 0; i < domains.length; i++) {
-		getEmailsFromDomain(domains[i])
+async function getEmails(data) {
+	for (let i = 0; i < data.locations.length; i++) {
+		if (data.locations[i].website) {
+			getEmailsFromDomain(data.locations[i], data.locations[i].placeID)
+		}
 	}
 }
 module.exports = { getEmails }
