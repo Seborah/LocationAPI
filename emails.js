@@ -4,6 +4,7 @@ query=www.kryptowire.com&
 query=kududynamics.com&
 async=false
 */
+
 var { updateLocation } = require("./database")
 const { default: axios } = require("axios")
 

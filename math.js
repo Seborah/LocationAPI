@@ -61,15 +61,15 @@ function findSpiralOnLongitude(latitude, longitude) {
 			//console.log("found")
 			return spiral
 		}
-    }
-    throw("Could not find spiral")
+	}
+	throw "Could not find spiral"
 }
 
 /**
- * 
- * @param {Number} r 
- * @param {Number} theta 
- * @param {Number} phi 
+ *
+ * @param {Number} r
+ * @param {Number} theta
+ * @param {Number} phi
  * @returns {Number} index ID of location
  */
 function findNextIndex(r, theta, phi) {
@@ -84,9 +84,9 @@ function findNextIndex(r, theta, phi) {
 //console.log(findSpiralOnLongitude(37.4224428, -122.0855897))
 //console.log(findNextIndex(...findSpiralOnLongitude(37.4224428, -122.0855897)))
 module.exports = {
-    cartesianToGlobe,
-    spiralCurve,
-    latitudeCurve,
-    findSpiralOnLongitude,
-    findNextIndex
+	cartesianToGlobe,
+	spiralCurve,
+	latitudeCurve,
+	findSpiralOnLongitude,
+	findNextIndex,
 }

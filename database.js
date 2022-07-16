@@ -11,7 +11,7 @@ var { findSpiralOnLongitude, findNextIndex } = require("./math")
 const pool = mysql.createPool({
 	host: config.db.host,
 	user: config.db.user,
-	password: config.db.password,
+	password: process.env.DBPASSWORD,
 	connectionLimit: 10,
 	database: config.db.database,
 	multipleStatements: false,

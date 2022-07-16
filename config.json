@@ -9,7 +9,6 @@
     "db": {
         "host": "192.168.86.45",
         "user": "seborah",
-        "password": "QMpy97iwXcexh",
         "database": "testing_locations"
     },
     "querries": {
